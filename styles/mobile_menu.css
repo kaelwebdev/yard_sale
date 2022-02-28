@@ -1,0 +1,44 @@
+.mobile_menu {
+    padding: 24px;
+}
+
+.mobile_menu a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.mobile_menu ul {
+    padding: 0;
+    margin: 24px 0 0;
+    list-style: none;
+}
+
+.mobile_menu > ul:nth-child(1) {
+   border-bottom: 1px solid var(--very-light-pink);
+}
+
+.mobile_menu ul li {
+    margin-bottom: 24px;
+}
+
+.mobile_menu .email {
+    font-size: var(--sm);
+    font-weight: 300;
+}
+
+.mobile_menu .sign_out {
+    color: var(--hospital-green);
+    font-size: var(--sm);
+    font-weight: bold;
+}
+
+.mobile_menu .account {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mobile_menu .account ul:last-child li {
+    margin-bottom: 5px;
+}

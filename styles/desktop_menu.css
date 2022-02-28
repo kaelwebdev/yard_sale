@@ -1,0 +1,39 @@
+.desktop_menu {
+    width: 100px;
+    height: auto;
+    border: 1px solid var(--very-light-pink);
+    border-radius: 6px;
+    padding: 20px 20px 0 20px;
+}
+
+.desktop_menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.desktop_menu ul li {
+    text-align: end;
+}
+
+.desktop_menu ul li:nth-child(1),
+.desktop_menu ul li:nth-child(2) {
+    font-weight: bold;
+}
+
+.desktop_menu ul li:last-child {
+    padding-top: 20px;
+    border-top: 1px solid var(--very-light-pink);
+}
+
+.desktop_menu ul li:last-child a {
+    color: var(--hospital-green);
+    font-size: var(--sm);
+}
+
+.desktop_menu ul li a {
+    color: var(--black);
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
